@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOSJSAPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please press the button for testing" lineBreakMode="characterWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36E-rN-WsF">
+                                <rect key="frame" x="20" y="64" width="374" height="698"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy2-dn-ALX">
+                                <rect key="frame" x="20" y="762" width="374" height="30"/>
+                                <state key="normal" title="Mnemonic To PrivateKey"/>
+                                <connections>
+                                    <action selector="MnemonicToPrivKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPs-zF-BTJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wp1-fh-U2D">
+                                <rect key="frame" x="20" y="797" width="374" height="30"/>
+                                <state key="normal" title="PrivateKey To Mnemonic"/>
+                                <connections>
+                                    <action selector="PrivKeyToMnemonic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kav-VJ-h4t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zO-5Q-cKW">
+                                <rect key="frame" x="20" y="832" width="374" height="30"/>
+                                <state key="normal" title="Sign Transaction"/>
+                                <connections>
+                                    <action selector="TxSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bg6-K6-D12"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9zO-5Q-cKW" secondAttribute="trailing" constant="20" id="3OE-5p-Axk"/>
+                            <constraint firstItem="oy2-dn-ALX" firstAttribute="top" secondItem="36E-rN-WsF" secondAttribute="bottom" id="4xQ-hD-DzQ"/>
+                            <constraint firstItem="wp1-fh-U2D" firstAttribute="top" secondItem="oy2-dn-ALX" secondAttribute="bottom" constant="5" id="Akd-C9-MuY"/>
+                            <constraint firstItem="9zO-5Q-cKW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UDd-XZ-qO8"/>
+                            <constraint firstItem="wp1-fh-U2D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UK0-dc-9d5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wp1-fh-U2D" secondAttribute="trailing" constant="20" id="Xlz-yQ-syx"/>
+                            <constraint firstItem="36E-rN-WsF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZYd-zP-jRD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="36E-rN-WsF" secondAttribute="trailing" constant="20" id="dJr-g8-l2n"/>
+                            <constraint firstItem="9zO-5Q-cKW" firstAttribute="top" secondItem="wp1-fh-U2D" secondAttribute="bottom" constant="5" id="fYM-XU-Nvs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oy2-dn-ALX" secondAttribute="trailing" constant="20" id="iwm-1u-fON"/>
+                            <constraint firstItem="oy2-dn-ALX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jzC-yT-yi3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="36E-rN-WsF" secondAttribute="bottom" constant="100" id="kzD-PW-bkX"/>
+                            <constraint firstItem="36E-rN-WsF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="nU5-Jt-Nsc"/>
+                            <constraint firstItem="9zO-5Q-cKW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="r2H-CV-Bdr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="MnemonicToPrivKeyButton" destination="oy2-dn-ALX" id="QaU-ys-CbR"/>
+                        <outlet property="PrivKeyToMnemonicButton" destination="wp1-fh-U2D" id="h9V-gr-VTl"/>
+                        <outlet property="TxSignButton" destination="9zO-5Q-cKW" id="RJU-tL-gjH"/>
+                        <outlet property="displayLabel" destination="36E-rN-WsF" id="2zC-5N-3ZJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86.956521739130437" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>

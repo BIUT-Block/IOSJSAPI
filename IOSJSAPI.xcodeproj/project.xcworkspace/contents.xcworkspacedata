@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Sentimentalist.xcodeproj">
+      location = "self:/Users/abysmli/workspace/Sentimentalist/IOSJSAPI.xcodeproj">
    </FileRef>
 </Workspace>

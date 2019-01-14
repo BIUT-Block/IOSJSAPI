@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D278C2021ED14C40067C483 /* SECSDK.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D278C1F21ED14C30067C483 /* SECSDK.bundle.js */; };
 		9DCD36C221E2CE87005B2891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD36C121E2CE87005B2891 /* AppDelegate.swift */; };
 		9DCD36C421E2CE87005B2891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD36C321E2CE87005B2891 /* ViewController.swift */; };
 		9DCD36C721E2CE88005B2891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD36C521E2CE88005B2891 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9DCD36CC21E2CE89005B2891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD36CA21E2CE89005B2891 /* LaunchScreen.storyboard */; };
 		9DCD36D721E2CE89005B2891 /* SentimentalistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD36D621E2CE89005B2891 /* SentimentalistTests.swift */; };
 		9DCD36E221E2CE89005B2891 /* SentimentalistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD36E121E2CE89005B2891 /* SentimentalistUITests.swift */; };
+		9DCD36F021E2D35B005B2891 /* SECBlockJSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD36EF21E2D35B005B2891 /* SECBlockJSAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DCD36BE21E2CE87005B2891 /* Sentimentalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentimentalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D278C1F21ED14C30067C483 /* SECSDK.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SECSDK.bundle.js; sourceTree = SOURCE_ROOT; };
+		9DCD36BE21E2CE87005B2891 /* IOSJSAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSJSAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCD36C121E2CE87005B2891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DCD36C321E2CE87005B2891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DCD36C621E2CE88005B2891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DCD36C821E2CE89005B2891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCD36CB21E2CE89005B2891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCD36CD21E2CE89005B2891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DCD36D221E2CE89005B2891 /* SentimentalistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentalistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCD36D221E2CE89005B2891 /* IOSJSAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSJSAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCD36D621E2CE89005B2891 /* SentimentalistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentalistTests.swift; sourceTree = "<group>"; };
 		9DCD36D821E2CE89005B2891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DCD36DD21E2CE89005B2891 /* SentimentalistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentalistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCD36DD21E2CE89005B2891 /* IOSJSAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSJSAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCD36E121E2CE89005B2891 /* SentimentalistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentalistUITests.swift; sourceTree = "<group>"; };
 		9DCD36E321E2CE89005B2891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCD36EF21E2D35B005B2891 /* SECBlockJSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECBlockJSAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,9 @@
 		9DCD36B521E2CE87005B2891 = {
 			isa = PBXGroup;
 			children = (
-				9DCD36C021E2CE87005B2891 /* Sentimentalist */,
-				9DCD36D521E2CE89005B2891 /* SentimentalistTests */,
-				9DCD36E021E2CE89005B2891 /* SentimentalistUITests */,
+				9DCD36C021E2CE87005B2891 /* IOSJSAPI */,
+				9DCD36D521E2CE89005B2891 /* IOSJSAPITests */,
+				9DCD36E021E2CE89005B2891 /* IOSJSAPIUITests */,
 				9DCD36BF21E2CE87005B2891 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +91,52 @@
 		9DCD36BF21E2CE87005B2891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DCD36BE21E2CE87005B2891 /* Sentimentalist.app */,
-				9DCD36D221E2CE89005B2891 /* SentimentalistTests.xctest */,
-				9DCD36DD21E2CE89005B2891 /* SentimentalistUITests.xctest */,
+				9DCD36BE21E2CE87005B2891 /* IOSJSAPI.app */,
+				9DCD36D221E2CE89005B2891 /* IOSJSAPITests.xctest */,
+				9DCD36DD21E2CE89005B2891 /* IOSJSAPIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DCD36C021E2CE87005B2891 /* Sentimentalist */ = {
+		9DCD36C021E2CE87005B2891 /* IOSJSAPI */ = {
 			isa = PBXGroup;
 			children = (
+				9D278C1F21ED14C30067C483 /* SECSDK.bundle.js */,
 				9DCD36C121E2CE87005B2891 /* AppDelegate.swift */,
 				9DCD36C321E2CE87005B2891 /* ViewController.swift */,
+				9DCD36EF21E2D35B005B2891 /* SECBlockJSAPI.swift */,
 				9DCD36C521E2CE88005B2891 /* Main.storyboard */,
 				9DCD36C821E2CE89005B2891 /* Assets.xcassets */,
 				9DCD36CA21E2CE89005B2891 /* LaunchScreen.storyboard */,
 				9DCD36CD21E2CE89005B2891 /* Info.plist */,
 			);
-			path = Sentimentalist;
+			path = IOSJSAPI;
 			sourceTree = "<group>";
 		};
-		9DCD36D521E2CE89005B2891 /* SentimentalistTests */ = {
+		9DCD36D521E2CE89005B2891 /* IOSJSAPITests */ = {
 			isa = PBXGroup;
 			children = (
 				9DCD36D621E2CE89005B2891 /* SentimentalistTests.swift */,
 				9DCD36D821E2CE89005B2891 /* Info.plist */,
 			);
-			path = SentimentalistTests;
+			path = IOSJSAPITests;
 			sourceTree = "<group>";
 		};
-		9DCD36E021E2CE89005B2891 /* SentimentalistUITests */ = {
+		9DCD36E021E2CE89005B2891 /* IOSJSAPIUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9DCD36E121E2CE89005B2891 /* SentimentalistUITests.swift */,
 				9DCD36E321E2CE89005B2891 /* Info.plist */,
 			);
-			path = SentimentalistUITests;
+			path = IOSJSAPIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DCD36BD21E2CE87005B2891 /* Sentimentalist */ = {
+		9DCD36BD21E2CE87005B2891 /* IOSJSAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCD36E621E2CE89005B2891 /* Build configuration list for PBXNativeTarget "Sentimentalist" */;
+			buildConfigurationList = 9DCD36E621E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPI" */;
 			buildPhases = (
 				9DCD36BA21E2CE87005B2891 /* Sources */,
 				9DCD36BB21E2CE87005B2891 /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Sentimentalist;
+			name = IOSJSAPI;
 			productName = Sentimentalist;
-			productReference = 9DCD36BE21E2CE87005B2891 /* Sentimentalist.app */;
+			productReference = 9DCD36BE21E2CE87005B2891 /* IOSJSAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9DCD36D121E2CE89005B2891 /* SentimentalistTests */ = {
+		9DCD36D121E2CE89005B2891 /* IOSJSAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCD36E921E2CE89005B2891 /* Build configuration list for PBXNativeTarget "SentimentalistTests" */;
+			buildConfigurationList = 9DCD36E921E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPITests" */;
 			buildPhases = (
 				9DCD36CE21E2CE89005B2891 /* Sources */,
 				9DCD36CF21E2CE89005B2891 /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				9DCD36D421E2CE89005B2891 /* PBXTargetDependency */,
 			);
-			name = SentimentalistTests;
+			name = IOSJSAPITests;
 			productName = SentimentalistTests;
-			productReference = 9DCD36D221E2CE89005B2891 /* SentimentalistTests.xctest */;
+			productReference = 9DCD36D221E2CE89005B2891 /* IOSJSAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9DCD36DC21E2CE89005B2891 /* SentimentalistUITests */ = {
+		9DCD36DC21E2CE89005B2891 /* IOSJSAPIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCD36EC21E2CE89005B2891 /* Build configuration list for PBXNativeTarget "SentimentalistUITests" */;
+			buildConfigurationList = 9DCD36EC21E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPIUITests" */;
 			buildPhases = (
 				9DCD36D921E2CE89005B2891 /* Sources */,
 				9DCD36DA21E2CE89005B2891 /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				9DCD36DF21E2CE89005B2891 /* PBXTargetDependency */,
 			);
-			name = SentimentalistUITests;
+			name = IOSJSAPIUITests;
 			productName = SentimentalistUITests;
-			productReference = 9DCD36DD21E2CE89005B2891 /* SentimentalistUITests.xctest */;
+			productReference = 9DCD36DD21E2CE89005B2891 /* IOSJSAPIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DCD36B921E2CE87005B2891 /* Build configuration list for PBXProject "Sentimentalist" */;
+			buildConfigurationList = 9DCD36B921E2CE87005B2891 /* Build configuration list for PBXProject "IOSJSAPI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DCD36BD21E2CE87005B2891 /* Sentimentalist */,
-				9DCD36D121E2CE89005B2891 /* SentimentalistTests */,
-				9DCD36DC21E2CE89005B2891 /* SentimentalistUITests */,
+				9DCD36BD21E2CE87005B2891 /* IOSJSAPI */,
+				9DCD36D121E2CE89005B2891 /* IOSJSAPITests */,
+				9DCD36DC21E2CE89005B2891 /* IOSJSAPIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D278C2021ED14C40067C483 /* SECSDK.bundle.js in Resources */,
 				9DCD36CC21E2CE89005B2891 /* LaunchScreen.storyboard in Resources */,
 				9DCD36C921E2CE89005B2891 /* Assets.xcassets in Resources */,
 				9DCD36C721E2CE88005B2891 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCD36F021E2D35B005B2891 /* SECBlockJSAPI.swift in Sources */,
 				9DCD36C421E2CE87005B2891 /* ViewController.swift in Sources */,
 				9DCD36C221E2CE87005B2891 /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		9DCD36D421E2CE89005B2891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DCD36BD21E2CE87005B2891 /* Sentimentalist */;
+			target = 9DCD36BD21E2CE87005B2891 /* IOSJSAPI */;
 			targetProxy = 9DCD36D321E2CE89005B2891 /* PBXContainerItemProxy */;
 		};
 		9DCD36DF21E2CE89005B2891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DCD36BD21E2CE87005B2891 /* Sentimentalist */;
+			target = 9DCD36BD21E2CE87005B2891 /* IOSJSAPI */;
 			targetProxy = 9DCD36DE21E2CE89005B2891 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,12 +441,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sentimentalist/Info.plist;
+				DEVELOPMENT_TEAM = 4YMW3G2T54;
+				INFOPLIST_FILE = IOSJSAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fertig.Sentimentalist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fertig.IOSJSAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Sentimentalist/Info.plist;
+				DEVELOPMENT_TEAM = 4YMW3G2T54;
+				INFOPLIST_FILE = IOSJSAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fertig.Sentimentalist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fertig.IOSJSAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentimentalist.app/Sentimentalist";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSJSAPI.app/IOSJSAPI";
 			};
 			name = Debug;
 		};
@@ -498,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentimentalist.app/Sentimentalist";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSJSAPI.app/IOSJSAPI";
 			};
 			name = Release;
 		};
@@ -543,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DCD36B921E2CE87005B2891 /* Build configuration list for PBXProject "Sentimentalist" */ = {
+		9DCD36B921E2CE87005B2891 /* Build configuration list for PBXProject "IOSJSAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCD36E421E2CE89005B2891 /* Debug */,
@@ -552,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCD36E621E2CE89005B2891 /* Build configuration list for PBXNativeTarget "Sentimentalist" */ = {
+		9DCD36E621E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCD36E721E2CE89005B2891 /* Debug */,
@@ -561,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCD36E921E2CE89005B2891 /* Build configuration list for PBXNativeTarget "SentimentalistTests" */ = {
+		9DCD36E921E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCD36EA21E2CE89005B2891 /* Debug */,
@@ -570,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCD36EC21E2CE89005B2891 /* Build configuration list for PBXNativeTarget "SentimentalistUITests" */ = {
+		9DCD36EC21E2CE89005B2891 /* Build configuration list for PBXNativeTarget "IOSJSAPIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCD36ED21E2CE89005B2891 /* Debug */,
